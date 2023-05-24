@@ -1,0 +1,12 @@
+<dx-date-range-box
+    [startDate]="startDate"
+    [endDate]="endDate" 
+    startDateLabel="Start"
+    endDateLabel="End"
+    labelMode="floating"
+    displayFormat="EEEE, d 'of' MMM"
+    [useMaskBehavior]="true"
+    [showClearButton]="true"
+    [openOnFieldClick]="false"
+    (onValueChanged)="valueChanged($event)"
+></dx-date-range-box>
