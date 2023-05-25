@@ -1,5 +1,5 @@
 {
-  "name": "dx-jquery",
+  "name": "getting-started-with-daterangebox",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run lite",
