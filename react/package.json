@@ -9,8 +9,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.2",
-    "devextreme": "^23.1.2",
-    "devextreme-react": "^23.1.2"
+    "devextreme": "23.1.2-beta",
+    "devextreme-react": "23.1.2-beta"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "devextreme-themebuilder": "^23.1.2"
+    "devextreme-themebuilder": "23.1.2-beta"
   }
 }
