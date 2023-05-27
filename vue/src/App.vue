@@ -8,7 +8,7 @@
       start-date-label="Start"
       end-date-label="End"
       label-mode="floating"
-      display-format="EEEE, d 'of' MMM"
+      display-format="EEEE, MMM d"
       :use-mask-behavior="true"
       :show-clear-button="true"
       :open-on-field-click="false"

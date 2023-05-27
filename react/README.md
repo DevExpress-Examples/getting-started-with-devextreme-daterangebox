@@ -1,6 +1,6 @@
 # DevExtreme React DateRangeBox - Getting Started 
 
-This repository stores the code examples of the React DateRangeBox component for the [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. The DateRangeBox is a UI component that displays date in a specified range, and enables a user to pick or type in the required date range values. This tutorial shows how to configure the basic DateRangeBox features.
+This repository stores the code examples of the React DateRangeBox component for the [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. The DateRangeBox is a UI component that displays dates in a specified range, and enables a user to select dates in the calendar or type in the required date range values. This tutorial shows how to configure the basic DateRangeBox features.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

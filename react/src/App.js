@@ -31,7 +31,7 @@ class App extends React.Component {
             startDateLabel="Start"
             endDateLabel="End"
             labelMode="floating"
-            displayFormat="EEEE, d 'of' MMM"
+            displayFormat="EEEE, MMM d"
             useMaskBehavior={true}
             showClearButton={true}
             openOnFieldClick={false}
