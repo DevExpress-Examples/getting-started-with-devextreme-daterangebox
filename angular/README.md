@@ -1,6 +1,6 @@
 # DevExtreme Angular DateRangeBox - Getting Started
 
-This repository stores the code examples of the Angular DateRangeBox component for the [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. The DateRangeBox is a UI component that displays date in a specified range, and enables a user to pick or type in the required date range values. This tutorial shows how to configure the basic DateRangeBox features.
+This repository stores the code examples of the Angular DateRangeBox component for the [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. The DateRangeBox is a UI component that displays dates in a specified range, and enables a user to select dates in the calendar or type in the required date range values. This tutorial shows how to configure the basic DateRangeBox features.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
