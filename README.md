@@ -6,7 +6,11 @@
 
 # DevExtreme DateRangeBox - Getting Started 
 
-This repository stores the code examples of the DateRangeBox component for the [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. The DateRangeBox is a UI component that displays dates in a specified range, and enables a user to select dates in the calendar or type in the required date range values. This tutorial shows how to configure the basic DateRangeBox features.
+This repository includes full source code for the Getting Started with [Getting Started with DateRangeBox](https://js.devexpress.com/Documentation/Guide/UI_Components/DateRangeBox/Getting_Started_with_DateRangeBox/) tutorial. 
+
+Our DateRangeBox UI component displays date values within a specified range. It allows users to select dates using the component’s built-in calendar or to enter values manually. 
+
+The Getting Started with DateRangeBox tutorial demonstrates how you can configure the DateRangeBox and incorporate some of its many features within your next web app.
 
 <div align="center"><img src="./date_range_box.png" /></div>
 
