@@ -13,19 +13,19 @@ Our DateRangeBox UI component displays date values within a specified range. It 
 
 The Getting Started with DateRangeBox tutorial demonstrates how you can configure the DateRangeBox and incorporate some of its many features within your next web app.
 
-<div align="center"><img src="./date_range_box.png" /></div>
+<div align="center"><img src="images/date_range_box.png" /></div>
 
 ## Files to Review
 
 - **Angular**
-    - [app.component.html](angular/src/app/app.component.html)
-    - [app.component.ts](angular/src/app/app.component.ts)
+    - [app.component.html](Angular/src/app/app.component.html)
+    - [app.component.ts](Angular/src/app/app.component.ts)
 - **jQuery**
-    - [index.js](jquery/src/index.js)
+    - [index.js](jQuery/src/index.js)
 - **React**
-    - [App.js](react/src/App.js)
+    - [App.js](React/src/App.js)
 - **Vue**
-    - [App.vue](vue/src/App.vue)
+    - [App.vue](Vue/src/App.vue)
 
 ## Documentation
 
