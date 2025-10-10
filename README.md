@@ -23,9 +23,10 @@ The Getting Started with DateRangeBox tutorial demonstrates how you can configur
 - **jQuery**
     - [index.js](jQuery/src/index.js)
 - **React**
-    - [App.js](React/src/App.js)
+    - [App.tsx](React/src/App.tsx)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
+    - [DateRangeBoxContent.vue](Vue/src/components/DateRangeBoxContent.vue)
 
 ## Documentation
 

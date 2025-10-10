@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import notify from 'devextreme/ui/notify';
+import { DxDateRangeBoxTypes } from 'devextreme-angular/ui/date-range-box';
+import { DateRangeData, DateRangeOptions } from './app.types';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +9,26 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
+  dateRangeData: DateRangeData = {
+    startDate: new Date(),
+    endDate: new Date(new Date().setDate(new Date().getDate() + 7)),
+    minDate: new Date(new Date().setDate(new Date().getDate() - 14)),
+    maxDate: new Date(new Date().setDate(new Date().getDate() + 14)),
+  };
 
-  counter = 0;
+  dateRangeOptions: DateRangeOptions = {
+    startDateLabel: 'Start',
+    endDateLabel: 'End',
+    labelMode: 'floating',
+    displayFormat: 'EEEE, MMM d',
+    useMaskBehavior: true,
+    showClearButton: true,
+    openOnFieldClick: false,
+  };
 
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  onValueChanged(e: DxDateRangeBoxTypes.ValueChangedEvent): void {
+    if (e.value && e.value.length === 2) {
+      notify('Date range selected successfully', 'success', 2000);
+    }
   }
 }

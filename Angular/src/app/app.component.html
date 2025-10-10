@@ -1,3 +1,17 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
+<div id="app-container">
+  <dx-date-range-box
+    [startDate]="dateRangeData.startDate"
+    [endDate]="dateRangeData.endDate"
+    [min]="dateRangeData.minDate"
+    [max]="dateRangeData.maxDate"
+    [startDateLabel]="dateRangeOptions.startDateLabel"
+    [endDateLabel]="dateRangeOptions.endDateLabel"
+    [labelMode]="dateRangeOptions.labelMode"
+    [displayFormat]="dateRangeOptions.displayFormat"
+    [useMaskBehavior]="dateRangeOptions.useMaskBehavior"
+    [showClearButton]="dateRangeOptions.showClearButton"
+    [openOnFieldClick]="dateRangeOptions.openOnFieldClick"
+    (onValueChanged)="onValueChanged($event)"
+  >
+  </dx-date-range-box>
 </div>
