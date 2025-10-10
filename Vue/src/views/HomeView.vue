@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import FormContent from '../components/FormContent.vue';
+import DateRangeBoxContent from '../components/DateRangeBoxContent.vue';
 </script>
 
 <template>
-  <FormContent/>
+  <DateRangeBoxContent/>
 </template>
 
