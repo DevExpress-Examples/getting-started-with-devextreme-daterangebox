@@ -3,11 +3,13 @@ import notify from 'devextreme/ui/notify';
 import { DxDateRangeBoxTypes } from 'devextreme-angular/ui/date-range-box';
 import { DateRangeData, DateRangeOptions } from './app.types';
 
+import { DxDateRangeBoxModule } from 'devextreme-angular/ui/date-range-box';
+
 @Component({
     selector: 'app-root',
+    imports: [DxDateRangeBoxModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
-    standalone: false
 })
 export class AppComponent {
   dateRangeData: DateRangeData = {
