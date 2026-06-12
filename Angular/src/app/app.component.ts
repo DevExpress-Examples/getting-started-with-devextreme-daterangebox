@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import notify from 'devextreme/ui/notify';
 import { DxDateRangeBoxTypes } from 'devextreme-angular/ui/date-range-box';
 import { DateRangeData, DateRangeOptions } from './app.types';
@@ -9,6 +9,7 @@ import { DxDateRangeBoxModule } from 'devextreme-angular/ui/date-range-box';
     selector: 'app-root',
     imports: [DxDateRangeBoxModule],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
